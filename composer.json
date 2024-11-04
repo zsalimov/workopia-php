@@ -1,0 +1,16 @@
+{
+    "name": "root/udemi",
+    "description": "Job listing application",
+    "author": [
+        {
+            "name":"Zeki Ak",
+            "email": "zsal@gmail.com"
+        }
+     ],
+    "autoload": {
+        "psr-4": {
+            "Framework\\": "Framework/",
+            "App\\": "App/"
+        }
+    }
+}

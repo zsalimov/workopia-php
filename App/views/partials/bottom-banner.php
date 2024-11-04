@@ -3,6 +3,11 @@
       <div
         class="bg-blue-800 text-white rounded p-4 flex items-center justify-between"
       >
+      <?php
+
+use Framework\Session;
+
+ if (Session::has('user')) : ?>
         <div>
           <h2 class="text-xl font-semibold">Looking to hire?</h2>
           <p class="text-gray-200 text-lg mt-2">
@@ -15,5 +20,6 @@
         >
           <i class="fa fa-edit"></i> Post a Job
         </a>
+        <?php endif; ?>
       </div>
     </section>
